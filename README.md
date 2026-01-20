@@ -64,14 +64,6 @@ python main.py
 - `add_log()`: Añade mensajes al log con colores según el nivel (INFO, SUCCESS, ERROR, SERVER)
 - `send_email()`: Función que conecta al servidor SMTP y envía el correo
 
-## Capturas de Pantalla
-
-### 1. Programa mostrando envío exitoso
-![Captura del programa](capturas/programa_enviado.png)
-
-### 2. Inbox de Mailtrap con correo recibido
-![Captura de Mailtrap](capturas/mailtrap_recibido.png)
-
 ## Características Técnicas
 
 - **Sin STARTTLS**: Conexión SMTP directa sin cifrado TLS
