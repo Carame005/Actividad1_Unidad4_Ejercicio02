@@ -1,0 +1,92 @@
+<!-- PLANTILLA 2: Correo Simple y Limpio -->
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .body {
+            padding: 30px;
+        }
+        .body h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .info-box {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .footer {
+            background: #ecf0f1;
+            padding: 15px;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        code {
+            background: #e8e8e8;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📧 Prueba de Cliente SMTP</h1>
+        </div>
+        
+        <div class="body">
+            <h2>Correo de Prueba</h2>
+            <p>Hola,</p>
+            <p>Este correo ha sido enviado exitosamente desde nuestro cliente SMTP en Python.</p>
+            
+            <div class="info-box">
+                <strong>🔧 Tecnologías utilizadas:</strong><br>
+                • Python 3.x<br>
+                • Tkinter (GUI)<br>
+                • smtplib (SMTP)<br>
+                • email.mime (Mensajes MIME)<br>
+                • Mailtrap (Servidor de pruebas)
+            </div>
+            
+            <p>El programa incluye:</p>
+            <ol>
+                <li>Interfaz gráfica completa</li>
+                <li>Editor de contenido HTML</li>
+                <li>Log de comunicación con el servidor</li>
+                <li>Validación de datos</li>
+                <li>Manejo de errores detallado</li>
+            </ol>
+            
+            <p><strong>Nota:</strong> Este correo usa <code>smtplib</code> sin STARTTLS, conectando directamente al servidor SMTP de Mailtrap.</p>
+        </div>
+        
+        <div class="footer">
+            Enviado por Cliente SMTP Python | Ejercicio 2 - PSP | Enero 2026
+        </div>
+    </div>
+</body>
+</html>
